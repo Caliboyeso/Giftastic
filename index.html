@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of website -->
+    <title>Giftastic</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link to jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- A <header> tag to display the header -->
+    <header><h1>Giftastic</h1></header>
+
+    <!-- This <div> container holds buttons, images and a form -->
+    <div class="container">
+
+        <!-- A <form> tag to collect user input -->
+            <form class="gif-form-section">
+                <!-- A <label> tag to add text to the label -->
+                <label id="gif-form-title"><h2>Add an animal</h2></label>
+                <!-- A <input> tag where the user can enter data -->
+                <input id="gif-form-input" type="text">
+                <!-- This is a link break -->
+                <br>
+                <!-- A <input> tag to submit the form -->
+                <input id="submit-form-button" type="submit" value="Add">
+            </form>
+
+        <!-- This empty <div> will render buttons -->
+        <div id="gif-buttons-section"></div>
+
+        <!-- This empty <div> is where the images will be rendered -->
+        <div id="gif-images-section"></div>
+
+    </div>
+
+    <!-- A <footer> tag to display the footer -->
+    <footer><h2 id="footer-text">Jesus Lopez 2021&copy;</h2></footer>
+    
+<!-- Link to JavaScript -->
+<script src="assets/js/app.js"></script>
+</body>
+</html>
